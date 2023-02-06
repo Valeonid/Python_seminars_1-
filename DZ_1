@@ -8,7 +8,7 @@ N = int(input('Введите число монет N: '))
 count = 0
 for i in range(N):
     # задаем орлы = 1, решки = 0
-    coin = int(input()
+    coin = int(input())
     # орел = 1 = TRUE, решка = 0 = FALSE - это удобно для подсчета орлов с помощью IF
     if coin:
         count += 1
