@@ -13,7 +13,7 @@ for i in range(N):
     if coin:
         count += 1
 
-#  Выводимменьшее из значений count или (N - count).
+#  Выводим меньшее из значений count или (N - count).
 if count > N // 2:
     count = N - count
 
