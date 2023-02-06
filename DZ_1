@@ -9,11 +9,12 @@ count = 0
 for i in range(N):
     # задаем орлы = 1, решки = 0
     coin = int(input()
-    # орел = 1 = TRUE, решка = 0 = FALSE
+    # орел = 1 = TRUE, решка = 0 = FALSE - это удобно для подсчета орлов с помощью IF
     if coin:
         count += 1
 
+#  Выводимменьшее из значений count или (N - count).
 if count > N // 2:
-    count = n - count
+    count = N - count
 
 print(count)
